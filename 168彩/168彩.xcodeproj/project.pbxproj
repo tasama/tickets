@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9B641EF71FFE536200BB95B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641EF61FFE536200BB95B0 /* AppDelegate.m */; };
-		9B641EFA1FFE536200BB95B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641EF91FFE536200BB95B0 /* ViewController.m */; };
-		9B641EFD1FFE536200BB95B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B641EFB1FFE536200BB95B0 /* Main.storyboard */; };
 		9B641EFF1FFE536200BB95B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B641EFE1FFE536200BB95B0 /* Assets.xcassets */; };
-		9B641F021FFE536200BB95B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B641F001FFE536200BB95B0 /* LaunchScreen.storyboard */; };
 		9B641F051FFE536200BB95B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641F041FFE536200BB95B0 /* main.m */; };
 		9B641F101FFE545C00BB95B0 /* SSCNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641F0F1FFE545C00BB95B0 /* SSCNetTool.m */; };
 		9B641F141FFE5C1B00BB95B0 /* SSCAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641F131FFE5C1B00BB95B0 /* SSCAPI.m */; };
 		9B641F181FFE61D800BB95B0 /* SSCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B641F171FFE61D800BB95B0 /* SSCModel.m */; };
+		9BC4D9391FFF86D9002A466A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4D9381FFF86D9002A466A /* Launch Screen.storyboard */; };
+		9BC4D9421FFF8AB3002A466A /* SSCDLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D93D1FFF8AB3002A466A /* SSCDLTViewController.m */; };
+		9BC4D9431FFF8AB3002A466A /* SSCFC3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D93F1FFF8AB3002A466A /* SSCFC3DViewController.m */; };
+		9BC4D9441FFF8AB3002A466A /* SSCPL3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D9411FFF8AB3002A466A /* SSCPL3ViewController.m */; };
+		9BC4D9481FFF8AE8002A466A /* SSCTableBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D9471FFF8AE8002A466A /* SSCTableBarViewController.m */; };
+		9BC4D94B1FFF8B46002A466A /* SSCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D94A1FFF8B46002A466A /* SSCTableViewCell.m */; };
 		EEEA55058386F987D0D3A9E7 /* libPods-168彩.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EAEE43FE1B38C7552E4C50 /* libPods-168彩.a */; };
 /* End PBXBuildFile section */
 
@@ -24,11 +27,7 @@
 		9B641EF21FFE536200BB95B0 /* 168彩.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "168彩.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B641EF51FFE536200BB95B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B641EF61FFE536200BB95B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B641EF81FFE536200BB95B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B641EF91FFE536200BB95B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9B641EFC1FFE536200BB95B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B641EFE1FFE536200BB95B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B641F011FFE536200BB95B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B641F031FFE536200BB95B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B641F041FFE536200BB95B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B641F0E1FFE545C00BB95B0 /* SSCNetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCNetTool.h; sourceTree = "<group>"; };
@@ -37,6 +36,17 @@
 		9B641F131FFE5C1B00BB95B0 /* SSCAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCAPI.m; sourceTree = "<group>"; };
 		9B641F161FFE61D800BB95B0 /* SSCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCModel.h; sourceTree = "<group>"; };
 		9B641F171FFE61D800BB95B0 /* SSCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCModel.m; sourceTree = "<group>"; };
+		9BC4D9381FFF86D9002A466A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9BC4D93C1FFF8AB3002A466A /* SSCDLTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCDLTViewController.h; sourceTree = "<group>"; };
+		9BC4D93D1FFF8AB3002A466A /* SSCDLTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCDLTViewController.m; sourceTree = "<group>"; };
+		9BC4D93E1FFF8AB3002A466A /* SSCFC3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCFC3DViewController.h; sourceTree = "<group>"; };
+		9BC4D93F1FFF8AB3002A466A /* SSCFC3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCFC3DViewController.m; sourceTree = "<group>"; };
+		9BC4D9401FFF8AB3002A466A /* SSCPL3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCPL3ViewController.h; sourceTree = "<group>"; };
+		9BC4D9411FFF8AB3002A466A /* SSCPL3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCPL3ViewController.m; sourceTree = "<group>"; };
+		9BC4D9461FFF8AE8002A466A /* SSCTableBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCTableBarViewController.h; sourceTree = "<group>"; };
+		9BC4D9471FFF8AE8002A466A /* SSCTableBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCTableBarViewController.m; sourceTree = "<group>"; };
+		9BC4D9491FFF8B46002A466A /* SSCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCTableViewCell.h; sourceTree = "<group>"; };
+		9BC4D94A1FFF8B46002A466A /* SSCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCTableViewCell.m; sourceTree = "<group>"; };
 		D4EAEE43FE1B38C7552E4C50 /* libPods-168彩.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-168彩.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7059237F6B27BF0E7BF028B /* Pods-168彩.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-168彩.release.xcconfig"; path = "Pods/Target Support Files/Pods-168彩/Pods-168彩.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,16 +92,16 @@
 		9B641EF41FFE536200BB95B0 /* 168彩 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC4D9451FFF8AD2002A466A /* Public */,
+				9BC4D93B1FFF8A9D002A466A /* ViewControllers */,
+				9BC4D93A1FFF8A79002A466A /* Cells */,
 				9B641F151FFE61CD00BB95B0 /* Model */,
 				9B641F111FFE5C0D00BB95B0 /* API */,
 				9B641F0D1FFE543900BB95B0 /* NetworkingTool */,
 				9B641EF51FFE536200BB95B0 /* AppDelegate.h */,
 				9B641EF61FFE536200BB95B0 /* AppDelegate.m */,
-				9B641EF81FFE536200BB95B0 /* ViewController.h */,
-				9B641EF91FFE536200BB95B0 /* ViewController.m */,
-				9B641EFB1FFE536200BB95B0 /* Main.storyboard */,
 				9B641EFE1FFE536200BB95B0 /* Assets.xcassets */,
-				9B641F001FFE536200BB95B0 /* LaunchScreen.storyboard */,
+				9BC4D9381FFF86D9002A466A /* Launch Screen.storyboard */,
 				9B641F031FFE536200BB95B0 /* Info.plist */,
 				9B641F041FFE536200BB95B0 /* main.m */,
 			);
@@ -123,6 +133,37 @@
 				9B641F171FFE61D800BB95B0 /* SSCModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9BC4D93A1FFF8A79002A466A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4D9491FFF8B46002A466A /* SSCTableViewCell.h */,
+				9BC4D94A1FFF8B46002A466A /* SSCTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9BC4D93B1FFF8A9D002A466A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4D93C1FFF8AB3002A466A /* SSCDLTViewController.h */,
+				9BC4D93D1FFF8AB3002A466A /* SSCDLTViewController.m */,
+				9BC4D93E1FFF8AB3002A466A /* SSCFC3DViewController.h */,
+				9BC4D93F1FFF8AB3002A466A /* SSCFC3DViewController.m */,
+				9BC4D9401FFF8AB3002A466A /* SSCPL3ViewController.h */,
+				9BC4D9411FFF8AB3002A466A /* SSCPL3ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BC4D9451FFF8AD2002A466A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4D9461FFF8AE8002A466A /* SSCTableBarViewController.h */,
+				9BC4D9471FFF8AE8002A466A /* SSCTableBarViewController.m */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 		9C435114EF3F1B659F1417E9 /* Pods */ = {
@@ -196,9 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B641F021FFE536200BB95B0 /* LaunchScreen.storyboard in Resources */,
+				9BC4D9391FFF86D9002A466A /* Launch Screen.storyboard in Resources */,
 				9B641EFF1FFE536200BB95B0 /* Assets.xcassets in Resources */,
-				9B641EFD1FFE536200BB95B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,34 +301,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B641F141FFE5C1B00BB95B0 /* SSCAPI.m in Sources */,
-				9B641EFA1FFE536200BB95B0 /* ViewController.m in Sources */,
+				9BC4D9481FFF8AE8002A466A /* SSCTableBarViewController.m in Sources */,
 				9B641F101FFE545C00BB95B0 /* SSCNetTool.m in Sources */,
+				9BC4D9441FFF8AB3002A466A /* SSCPL3ViewController.m in Sources */,
 				9B641F181FFE61D800BB95B0 /* SSCModel.m in Sources */,
 				9B641F051FFE536200BB95B0 /* main.m in Sources */,
+				9BC4D9421FFF8AB3002A466A /* SSCDLTViewController.m in Sources */,
+				9BC4D94B1FFF8B46002A466A /* SSCTableViewCell.m in Sources */,
 				9B641EF71FFE536200BB95B0 /* AppDelegate.m in Sources */,
+				9BC4D9431FFF8AB3002A466A /* SSCFC3DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9B641EFB1FFE536200BB95B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B641EFC1FFE536200BB95B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B641F001FFE536200BB95B0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B641F011FFE536200BB95B0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9B641F061FFE536200BB95B0 /* Debug */ = {
@@ -403,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R274JYMH7M;
 				INFOPLIST_FILE = "168彩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SSC.-68-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R274JYMH7M;
 				INFOPLIST_FILE = "168彩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SSC.-68-";
 				PRODUCT_NAME = "$(TARGET_NAME)";

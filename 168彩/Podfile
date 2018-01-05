@@ -9,5 +9,6 @@ target '168彩' do
   pod 'AFNetworking'
   pod 'YYCache'
   pod 'YYModel'
+  pod 'TACategorys', :git=>'https://github.com/tasama/TACategorys.git'
 end
 
